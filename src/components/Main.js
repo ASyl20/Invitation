@@ -29,17 +29,16 @@ export default class Main extends React.Component{
             }
             else
                 console.log("Echec")
+                // 107887551e18e18be6e3687a01eff759e9dfd9180c2003206d3268d6a24415e5
         })
     }
 
      
     render(){
-     
-
         return(
             <div className="container">
             <br/>
-                <h1 className="text-center">Invitations</h1>
+                <h1 className="text-center c">Access card</h1>
                 <br/>
                 <div className="card text-right" >
                     <div className="card-body">
@@ -52,7 +51,7 @@ export default class Main extends React.Component{
                         onChange={(e)=>this.check(e)}
                          />
                         <br/>
-                    <a href="#" className="btn btn-secondary" onClick={(e)=>this.valide(e)}>Validez</a>
+                    <a href="#" className="btn bg-theme" onClick={(e)=>this.valide(e)}>Validez</a>
                     </div>
                     </div>
                     <br/>
